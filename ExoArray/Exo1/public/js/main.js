@@ -12,7 +12,8 @@ console.log(monArray.length)
 
 // Affichage des éléments un par un
 
-console.log();
+console.log()
+
 for (let i = 0; i < monArray.length; i++) {
-    console.log(monArray[i]);
+    console.log(monArray[i])
 }
