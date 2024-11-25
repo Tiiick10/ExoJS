@@ -1,39 +1,22 @@
-// Exercice 1
+let tableau = [1, 2, 3, 4];
 
-let monString = "Ceci est une chaîne de caractères"
-console.log(monString)
+// Variables Temporaires
 
-let monInt = 42
-alert(monInt)
+const temp = tableau[0]
+tableau[0] = tableau[3]
+tableau[3] = temp
 
-// Exercice 2
+const temp2 = tableau[1]
+tableau[1] = tableau[2]
+tableau[2] = temp2
 
-let reponseUtilisateur = prompt("Veuillez entrer quelque chose :")
+console.log(tableau)
 
-alert(reponseUtilisateur)
 
-// Exercice 3
 
-let prenom = prompt("Quel est ton prénom ?")
 
-alert("Bonjour " + prenom)
+// Reverse
 
-// Exercice 3.1
-
-let age = prompt("Quel est ton âge ?")
-
-alert("Tu as " + age + " ans")
-
-// Exercice 4
-
-let nom = prompt("Quel est ton nom de famille ?")
-let prenomComplet = prenom + " " + nom
-
-console.log(prenomComplet)
-
-// Exercice 5
-
-let nomMaj = nom.toUpperCase()
-let variableComplete = nomMaj + " " + prenom
-
-alert("Bonjour " + variableComplete)
+// let tableau = [1, 2, 3, 4]
+// tableau.reverse()
+// console.log(tableau)

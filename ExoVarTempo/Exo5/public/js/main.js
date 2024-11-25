@@ -1,39 +1,26 @@
-// Exercice 1
+let a = 1;
+let b = 2;
+let c = 3;
+let d = 4;
+let e = 5;
+let f = 6;
 
-let monString = "Ceci est une chaîne de caractères"
-console.log(monString)
+// Sauvegarder dans des variables temporaires
 
-let monInt = 42
-alert(monInt)
+const tempA = a
+const tempB = b
+const tempC = c
+const tempD = d
+const tempE = e
+const tempF = f
 
-// Exercice 2
+// Réassignation
 
-let reponseUtilisateur = prompt("Veuillez entrer quelque chose :")
+a = tempD
+b = tempE
+c = tempA
+d = tempB
+e = tempF
+f = tempC
 
-alert(reponseUtilisateur)
-
-// Exercice 3
-
-let prenom = prompt("Quel est ton prénom ?")
-
-alert("Bonjour " + prenom)
-
-// Exercice 3.1
-
-let age = prompt("Quel est ton âge ?")
-
-alert("Tu as " + age + " ans")
-
-// Exercice 4
-
-let nom = prompt("Quel est ton nom de famille ?")
-let prenomComplet = prenom + " " + nom
-
-console.log(prenomComplet)
-
-// Exercice 5
-
-let nomMaj = nom.toUpperCase()
-let variableComplete = nomMaj + " " + prenom
-
-alert("Bonjour " + variableComplete)
+console.log(a, b, c, d, e, f)
