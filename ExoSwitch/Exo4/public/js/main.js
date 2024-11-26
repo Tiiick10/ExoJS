@@ -1,9 +1,9 @@
 
-let nbr1 = parseFloat(prompt("Premier nombre :"))
+let nbr1 = parseInt(prompt("Premier nombre :"))
 
 let operateur = prompt("Opérateur (+, -, *, /) :")
 
-let nbr2 = parseFloat(prompt("Deuxième nombre :"))
+let nbr2 = parseInt(prompt("Deuxième nombre :"))
 
 
 switch (operateur) {
