@@ -60,7 +60,7 @@ console.log(Math.abs(-1))
 
 // Exo 12
 
-console.log(Math.max(-2, 1000, 8, 57));
+console.log(Math.max(-2, 1000, 8, 57))
 
 // Exo 13
 
