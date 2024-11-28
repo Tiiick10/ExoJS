@@ -1,4 +1,4 @@
-// Non Strict
+// Non Stricte
 
 console.log(1 == "1")
 
